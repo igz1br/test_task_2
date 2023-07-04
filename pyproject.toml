@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "-lumos-websocket"
+version = "0.1.0"
+description = ""
+authors = ["igz1br <igorzigooogle@gmail.com>"]
+readme = "README.md"
+packages = [{include = "_lumos_websocket"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+aiohttp = "^3.8.4"
+websocket = "^0.2.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
